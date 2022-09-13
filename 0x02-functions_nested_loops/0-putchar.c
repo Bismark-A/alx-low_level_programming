@@ -2,12 +2,14 @@
 
 /**
  * main - a program that prints _putchar
- * Return : Always 0(Success)
+ * Return: 0 on success execution
  */
+
 int main(void)
 {
 	char s[] = "_putchar";
 	int i = 0;
+
 	while (s[i] != '\0')
 	{
 		_putchar(s[i]);
