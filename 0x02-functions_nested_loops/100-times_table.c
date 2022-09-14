@@ -2,7 +2,7 @@
 
 /**
  * print_times_table - print the 'n' times table, starting with 0
- * Descripttion: If 'n' is greater than 15 or less tham 0, print nothing
+ * Descripttion: If 'n' is greater than 15 or less tham 0, print nothing.
  * @n: int type number
  */
 
@@ -20,7 +20,7 @@ void print_times_table(int n)
 			if (z > 99)
 			{
 				_putchar(z / 100 + '0');
-				_putchar((z / 100 + '0') + '0');
+				_putchar((z / 10 % 10) + '0');
 				_putchar(z % 10 + '0');
 			}
 			else if (z > 9)
