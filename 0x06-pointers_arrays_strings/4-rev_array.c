@@ -11,7 +11,7 @@ void reverse_array(int *a, int n)
 {
 	int i, temp, cond;
 
-	if (n & 2 == 0)
+	if (n % 2 == 0)
 		cond = n;
 	else
 		cond = n - 1;
