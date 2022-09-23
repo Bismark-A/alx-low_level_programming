@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_number - function to print int using _ putchar
+ * print_number - function to print int using _putchar
  *
  * @num: int to print
  */
@@ -37,6 +37,6 @@ void print_number(int num)
 			d != 10;
 			_putchar('0' + (n / d) % 10);
 		}
-		_putchar('0' + (n / d) % 10);
+		_putchar('0' + n % 10);
 	}
 }
